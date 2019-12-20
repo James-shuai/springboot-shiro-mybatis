@@ -1,0 +1,13 @@
+server:
+  port: 8011
+spring:
+  datasource:
+    url: jdbc:mysql://cdb-6z1kjh7u.bj.tencentcdb.com:10217/test?useUnicode=true&characterEncoding=utf8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: test
+    password: '!QAZxsw2'
+  jpa:
+    show-sql: true
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.cy.springbootshiromybatis.business.entity
