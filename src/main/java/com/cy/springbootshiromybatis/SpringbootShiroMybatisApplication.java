@@ -9,6 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan("com.cy.springbootshiromybatis.business.dao")
 public class SpringbootShiroMybatisApplication {
 
+
+
   public static void main(String[] args) {
     SpringApplication.run(SpringbootShiroMybatisApplication.class, args);
   }
